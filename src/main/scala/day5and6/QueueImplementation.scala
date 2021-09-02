@@ -1,3 +1,5 @@
+package day5and6
+
 class QueueImplementation {
   var queue:List[Double] = List.empty
   var front: Int = -1

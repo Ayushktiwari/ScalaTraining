@@ -1,4 +1,4 @@
-// 1- By using main method
+package day2
 
 object Basics {
 
@@ -43,7 +43,7 @@ object Basics {
     println("Value of a is: " + a)
 
     /** a= 15
-     *  println("New value of a is: "+a)   --> error b/c val cannot be changed
+     * println("New value of a is: "+a)   --> error b/c val cannot be changed
      */
 
     var b = 10 // this is mutable we can change the value of it.
@@ -52,5 +52,3 @@ object Basics {
     println("Value of b is: " + b)
   }
 }
-
-

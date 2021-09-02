@@ -1,3 +1,5 @@
+package day5and6
+
 
 //  -- Primary Constructor --
 class Constructor(var name:String, var age:Int){
@@ -17,7 +19,7 @@ class Constructor(var name:String, var age:Int){
 
 
 }
-object Constructor {
+object Constructor1 {
 
   def main(args:Array[String]): Unit ={
     val p1 = new Constructor("Ayush",23)

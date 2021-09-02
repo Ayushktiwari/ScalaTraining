@@ -1,4 +1,6 @@
-import scala.util.control.Breaks._
+package day1
+
+import scala.util.control.Breaks.{break, breakable}
 
 object Calculator {
 
@@ -29,21 +31,21 @@ object Calculator {
         }
 
         ch match {
-          case '+' => result = num1+num2
-          case '-'=> result=num1-num2
-          case '*'=> result=num1*num2
-          case '/'=> result=num1/num2
-          case '%'=> result=num1%num2
-          case '|'=> result= (num1).abs
-          case '^'=> result= (scala.math.pow(num1,num2))
-          case '>'=> result= if(num1>num2) num1 else num2
-          case '<'=> result= if(num1>num2) num2 else num1
-          case _=>printf("Invalid operation.\n")
+          case '+' => result = num1 + num2
+          case '-' => result = num1 - num2
+          case '*' => result = num1 * num2
+          case '/' => result = num1 / num2
+          case '%' => result = num1 % num2
+          case '|' => result = (num1).abs
+          case '^' => result = (scala.math.pow(num1, num2))
+          case '>' => result = if (num1 > num2) num1 else num2
+          case '<' => result = if (num1 > num2) num2 else num1
+          case _ => printf("Invalid operation.\n")
         }
         println("Result: " + result);
       }
     }
-    }
+  }
 
 
 }

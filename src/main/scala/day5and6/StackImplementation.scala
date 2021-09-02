@@ -1,3 +1,5 @@
+package day5and6
+
 class StackImplementation{
 
   var stack: List[Double] = List.empty

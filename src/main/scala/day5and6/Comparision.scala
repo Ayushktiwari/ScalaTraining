@@ -1,3 +1,5 @@
+package day5and6
+
 import scala.language.postfixOps
 
 
